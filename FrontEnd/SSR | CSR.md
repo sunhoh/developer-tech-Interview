@@ -6,6 +6,7 @@ CSR(Client Side Rendering)은  기본적인 html를 포함하여 필요한 소�
 
 SSR(Server Side Rendering)은 클라이언트에서 요청이 들어올 때마다 서버에서 화면을 미리 완성해서 유저에게 전달합니다.
 
+
 ## SSR 과 CSR 차이는?
 
 Create React App (CRA) ← Only CSR
@@ -17,7 +18,8 @@ Create React App (CRA) ← Only CSR
 - 그런데 얼마 간 시간이 지나면서 조금씩 이상한 점이 드러나기 시작.
     - **: "우리 사이트가 검색에 너무 안 걸리는걸?"**
     - 원인) CRA로 build한 프로젝트는 Only CSR(Client Side Render)로 실행되기 때문.
-- **CSR (Client Side Rendering)**
+    
+CSR (Client Side Rendering)
     - 웹 페이지의 렌더링이 클라이언트(브라우저) 측에서 일어나는 것을 의미.
     - 브라우저는 최초 요청에서 html, js, css 확장자의 파일을 차례로 다운로드.
     - 최초로 불러온 html의 내용은 비어있음. (html, body 태그만 존재)
@@ -51,6 +53,7 @@ CSR : 페이지 요청 -> 첫페이지에 내용없음 -> 검색 노출 안됨
 SSR : 페이지 요청 -> 첫페이지에 내용있음 -> 검색 노출 됨
 
 CSR의 큰 단점은 검색엔진 최적화에 노출이 안된다는 단점이 있습니다.
+
 
 ## 그럼 2세대의 SSR방식의 MPA로 만들어야하나? 
 
