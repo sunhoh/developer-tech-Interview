@@ -11,5 +11,4 @@
 - React
 - Redux
 - TypeScript
-- Git / GitHub
 
