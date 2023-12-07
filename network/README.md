@@ -11,7 +11,7 @@
 - [IP란?]()
 - [대칭키 & 공개키]()
 - [HTTP & HTTPS](./HTTP%20&%20HTTPS.md)
-- [DNS와 DHCP]()
+- [DNS와 DHCP](./DNA와DHCP.md)
 - [로드 밸런싱(Load Balancing)]()
 
 

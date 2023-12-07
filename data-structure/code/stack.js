@@ -1,10 +1,15 @@
 class Stack {
   constructor() {
     this.items = [];
+    this.sp = -1; // 스택 포인터 초기값 설정
   }
 
   push(element) {
     this.items.push(element);
+  }
+  
+  push(element) {
+    this.items[++this.sp] = element; // 스택 포인터 증가 후 값 추가
   }
 
   pop() {
