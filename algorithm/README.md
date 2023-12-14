@@ -1,6 +1,6 @@
 # Algorithm
 
-> 정렬의 Stable 정렬과 In-place 정렬에 대해 알고 갑시다!
+ :: 정렬의 Stable 정렬과 In-place 정렬이란?
 
 <details>
 <summary>&nbsp; Stable</summary>
@@ -10,9 +10,8 @@
 
 만약, arr = [1, 7(1), 3, 5, 4, 7(2), 9] 을 정렬한 결과가
 
-arr = [1, 3, 4, 5, 7(1), 7(2), 9] 이면 Stable(안정)
+arr = [1, 3, 4, 5, 7(1), 7(2), 9] 이면 Stable(안정)<br>
 arr = [1, 3, 4, 5, 7(2), 7(1), 9] 이면 Unstable(불안정)
-이라 할 수 있습니다. 
 
 ---
 </details>
@@ -36,6 +35,7 @@ arr = [1, 3, 4, 5, 7(2), 7(1), 9] 이면 Unstable(불안정)
 
 ## 목차
 - [거품 정렬 (Bubble Sort)](./거품%20정렬%20(Bubble%20Sort).md)
+- [이분 탐색(Binary Search)](./이분%20탐색(Binary%20Search).md)
 
 
 
