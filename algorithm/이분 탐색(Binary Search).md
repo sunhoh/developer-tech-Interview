@@ -4,11 +4,12 @@
 
 
 진행 순서
-- 우선 정렬을 해야 함
+- 오름차순 혹은 내림차순으로 정렬
 - left와 right로 mid 값 설정
 - mid와 내가 구하고자 하는 값과 비교
-- 구할 값이 mid보다 높으면 : left = mid+1 구할 값이 mid보다 낮으면 : right = mid - 1
-- left > right가 될 때까지 계속 반복하기
+- 구할 값이 mid보다 높으면 : start = mid+1 구할 값이 mid보다 낮으면 : end = mid - 1
+- start <= end 될 때까지 계속 반복하기
+
 
 <br>
 
@@ -31,3 +32,4 @@ function binarySearch(array, target) {
   }
 }
 ```
+
