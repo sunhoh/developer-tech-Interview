@@ -9,11 +9,10 @@
 
 #### 선형 자료구조
   - [List](./list.md)
-  - [Queue & Stack]()
+  - [Queue & Stack](./stack&queue.md)
 
 #### 비선형 자료구조
-- [해시 테이블]()
-- [재귀]()
+- [해시 테이블](./hash%20table.md)
 - [트리]()
 - [그래프]()
 - [동적 계획법]()
