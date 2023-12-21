@@ -31,7 +31,7 @@ Level은 루트 노드부터 해당 노드까지 경로를 찾는 데 방문한 
 ![](../data-structure/img/tree2.png)
 
 #### 레벨 순회(level-order)
-부모 노드부터 계층 별로 방문하는 방식이다.
+부모 노드부터 계층 별로 방문하는 방식이다.<br>
 `A-B-C-D-E-F-G`
 
 #### 전위 순회(pre-order)
