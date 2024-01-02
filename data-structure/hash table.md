@@ -12,7 +12,7 @@ Hash table은 효율적인 탐색(빠른 탐색)을 위한 자료구조로써 ke
 |  | Hash table |  Linked list(Stack)| Array |  
 | -----  | -----| ----- | -----|   
 | access | O(1) | O(n)  | O(1) |  
-| insert | O(1) | O(1)  | O(1) |
+| insert | O(1) | O(1)  | O(1a) |
 | append |      | O(1)  | O(1) |
 | delete | O(1) | O(1)  | O(n) |
 

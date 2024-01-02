@@ -6,7 +6,7 @@
 
 ## 도메인 주소가 IP로 변환되는 과정
 
-![DNS_IMG](../network//img/dns.png)
+![DNS_IMG](../network/img/dns.png)
 
 
 1. CLient()브라우저가 설치된 컴퓨터는 www.example.com의 IP를 알아내기 위해서 가장 가까운 곳에 위치한 DNS에 www.example.com의 IP를 문의 한다. <br>
