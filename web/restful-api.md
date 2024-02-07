@@ -15,7 +15,7 @@ REST(Representational State Transfer)의 약자로 자원을 이름으로 구분
 > Create(생성), Read(읽기), Update(갱신), Delete(삭제)
 
 
-### REST 특징
+### REST의 제약 조건
 <details>
 <summary>&nbsp; Uniform Interface(인터페이스 일관성)</summary>
 
@@ -45,7 +45,8 @@ REST(Representational State Transfer)의 약자로 자원을 이름으로 구분
 
     ![소스 코드](/web/img/HATEOAS.png)
 
-
+<br>
+<br>
 
 ---
 </details>
@@ -97,7 +98,6 @@ HTTP는 원래 캐싱이 됨, 새로고침을 하면 304가 뜨면서 원래 있
 </details>
 
 
-
 <br>
 <br>
 <br>
@@ -106,6 +106,8 @@ HTTP는 원래 캐싱이 됨, 새로고침을 하면 304가 뜨면서 원래 있
 
 RESPT API란 REST의 원리를 따르는 API를 의미  
 REST API를 올바르게 설계하기 위해서는 지켜야 하는 몇가지 규칙이 있다.
+
+
 
 
 ### REST API 규칙

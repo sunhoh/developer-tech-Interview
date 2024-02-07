@@ -27,3 +27,4 @@
 
 ### Web
 - [REST API](./web/restful-api.md)
+- [CORS](./web/cors.md)
