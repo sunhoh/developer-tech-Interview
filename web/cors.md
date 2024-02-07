@@ -69,11 +69,12 @@ Request Header에 Origin: ‘{...주소}’ 기입해서 보내고
 
 #### Credentialed requset(인증 정보를 포함한 요청)
 
-인증 정보*를 함께 보내야 하는 요청이라면, Credentialed requset CORS 정책으로 동작한다.
+인증 정보를 함께 보내야 하는 요청이라면, Credentialed requset CORS 정책으로 동작한다.
 
 *인증정보? 쿠키(Cookie) 혹은 Authorization 헤더에 설정하는 토큰 값 등을 일컫는다.
 
-인증 정보를 보내기 위해서는 클라이언트 단에서 요청 시 별도의 설정이 필요하다.
+이 정책시에는 **access-control-allow-origin:** * 기입할 수 없다.  
+또한 **access-control-allow-credentials: true** 설정이 필요함
 
 > XMLHttpRequest, ajax, axios 의 경우,  
 > withCredentials = true로 설정해줘야 한다.
